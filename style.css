@@ -743,6 +743,14 @@ h6 {
 
 
 /* foooter css start */
+/* footer {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    bottom: 0;
+   
+} */
+
 #footer-content {
     margin-top: 25px;
     background: black;
@@ -757,7 +765,20 @@ h6 {
     border-bottom: 1px solid #3b3a3a;
     padding-bottom: 10px;
     margin-bottom: 10px;
-}
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #footer-box > div {
+    width: fit-content;
+    height: fit-content;
+  }
+
+  #footer-box > div > img{
+    height: 150px;
+    width: auto;
+  }
 
 #footer-box>div {
     display: -ms-flexbox;
